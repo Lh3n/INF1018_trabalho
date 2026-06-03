@@ -1,5 +1,5 @@
 /* Luiz_Henrique_Machado_da_Silva 2411819 3WB */
-/* Nome_do_Aluno2 Matricula Turma */
+/* Giovanni_Berardi_Cardoso 2411753 3WA */
 
 #include <stdio.h>
 #include <string.h>
