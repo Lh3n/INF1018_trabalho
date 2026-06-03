@@ -71,18 +71,16 @@ static void mov_reg_reg(unsigned char codigo[], int *pos, int origem, int destin
     emit1(codigo, pos, 0x89);
 
     /*
-     * ModRM simplificado
-     *
-     * origem:
-     * 0=rdi
-     * 1=rsi
-     * 2=rdx
-     *
-     * destino:
-     * 0=rdi
-     * 1=rsi
-     * 2=rdx
-     */
+    ModRM simplificado
+     origem:
+     0=rdi
+     1=rsi
+     2=rdx
+     destino:
+     0=rdi
+     1=rsi
+     2=rdx
+    */
 
     unsigned char modrm = 0xC0;
 
