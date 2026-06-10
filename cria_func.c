@@ -9,6 +9,19 @@
  3o parametro -> rdx
  */
 
+/*
+push %rbp
+mov %rsp,%rbp
+
+movl $10,%esi
+
+movabs mult,%rax
+call *%rax
+
+leave
+ret
+*/
+
 /* escreve 1 byte */
 static void emit1(unsigned char codigo[], int *pos, unsigned char byte) {
     codigo[*pos] = byte;
