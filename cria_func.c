@@ -1,6 +1,3 @@
-/* Luiz_Henrique_Machado_da_Silva 2411819 3WB */
-/* Giovanni_Berardi_Cardoso 2411753 3WA */
-
 #include <stdio.h>
 #include <string.h>
 #include "cria_func.h"
